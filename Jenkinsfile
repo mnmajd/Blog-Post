@@ -1,11 +1,16 @@
 node{
 try{
-stage('Tests'){
-
-    echo "test implemented"
+stage('Checkout'){
+    git 'https://github.com/majdas007/app-backend'
 }
-} 
-catch (err) {
+stage('INSTALL dependencies'){
+
+    sh "npm install"
+}
+stage('RUN Unit Tests'){
+    sh "npm run test:unit"
+}
+} catch (err) {
     currentBuild.result = 'FAILURE'
 }
 }
