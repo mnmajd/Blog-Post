@@ -1,7 +1,7 @@
 node{
 try{
 stage('Checkout'){
-    git 'https://github.com/majdas007/app-backend'
+    git 'https://github.com/majdas007/Blog-Post'
 }
 stage('INSTALL dependencies'){
 
