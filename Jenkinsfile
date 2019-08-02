@@ -1,13 +1,11 @@
 node{
-
 try{
-stage(' Tests'){
+stage('Tests'){
 
     echo "test implemented"
-
 }
-} catch (err) {
-
+} 
+catch (err) {
     currentBuild.result = 'FAILURE'
 }
 }
