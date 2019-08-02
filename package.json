@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/majdas007/app-backend.git"
+    "url": "git+https://github.com/majdas007/Blog-Post"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/majdas007/app-backend/issues"
+    "url": "https://github.com/majdas007/Blog-Post/issues"
   },
-  "homepage": "https://github.com/majdas007/app-backend#readme",
+  "homepage": "https://github.com/majdas007/Blog-Post#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
